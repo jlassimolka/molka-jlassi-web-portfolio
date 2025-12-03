@@ -1,0 +1,181 @@
+@use "./../../../../variables" as *;
+
+.about{
+
+    .about-description{
+        margin-top: 30px;
+        max-width: 480px;
+    }
+
+    .about-img-container {
+  position: relative;
+  width: max-content;   // shrink-wrap to the image size
+  margin: auto;
+
+  img {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;              // 👈 match exactly image dimensions
+    transform: translate(12px, 12px); // offset for the “frame behind” effect
+    border: 2px solid #64ffda;
+    border-radius: 3px;
+    z-index: 1;
+    pointer-events: none;
+  }
+}
+
+
+
+    .skills-list{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(140px,200px));
+        overflow: hidden;
+        padding: 0;
+        margin: 20px 0 0 0;
+        list-style: none;
+    }
+
+    .skill-element{
+        position: relative;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        font-size: 13px;
+        font-family: $CodeFont;
+        color: $Slate;
+        span{
+          padding-bottom: 5px;
+        }
+
+        &:before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: $Green;
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+
+}
+
+// Estilos para el modal de imagen
+.image-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+.image-modal-container {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    max-width: 450px;   
+   max-height: 80vh;  
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    border: 2px solid $Green;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid $Green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: $Green;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+        color: white;
+        border-color: white;
+    }
+
+    span {
+        line-height: 1;
+        margin-top: -2px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+    .about-img-container{
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+       
+        .about-img-container:after {
+            width: 200px;
+            height: 200px;
+            bottom: 190px;
+            left: 74px;
+        }
+    }
+
+    .modal-close-btn {
+        top: -40px;
+        right: 0;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .image-modal-container {
+        max-width: 95vw;
+        max-height: 80vh;
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+
+        .about-img-container {
+            width: 100%;
+
+         
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
