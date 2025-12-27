@@ -11,6 +11,7 @@ import { AnimationsService } from 'src/app/services/animations/animations.servic
 export class JobsComponent implements OnInit, AfterViewInit {
 
   active = 0
+  
 
   constructor(
     public analyticsService: AnalyticsService,

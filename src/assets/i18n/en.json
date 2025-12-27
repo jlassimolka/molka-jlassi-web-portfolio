@@ -15,7 +15,7 @@
   "AboutMe.Paragraphs": [
     "During my academic and professional projects, I had the opportunity to work on real-world applications that strengthened my technical and problem-solving skills. I enjoy turning ideas into functional, user-friendly solutions.",
   
-  "I contributed to several impactful projects, including an intelligent Learning Management System, a gym management platform, an IoT e-commerce interface, and a digital document management solution. Each project allowed me to collaborate with teams, understand business needs, and design efficient technical workflows.",
+  "I contributed to several impactful software projects that involved designing, developing, and improving real-world applications. These experiences allowed me to collaborate effectively with teams, understand business requirements, and design efficient and scalable technical workflows.",
   
   "I also enjoy exploring software quality and automation tools. I have worked with CI/CD pipelines, testing practices, and modern development environments to ensure clean, reliable, and maintainable code.",
   
@@ -29,9 +29,11 @@
     "Title": "Engineer Degree Final Year Internship",
     "Date": "February - August 2025",
     "Description": [
-      "Designed and developed an intelligent Learning Management System to centralize and automate employee training paths.",
-      "Integrated a request management workflow, personalized learning tracking, and skills evaluation.",
-      "Enhanced talent development and improved internal process efficiency."
+      "Designed and developed an intelligent Learning Management System to centralize and automate employee training paths, improving accessibility and organization of training materials.",
+  "Integrated a request management workflow, allowing employees to submit training requests and managers to track and approve them efficiently.",
+  "Implemented personalized learning tracking to monitor employee progress and provide relevant feedback.",
+  "Included skills evaluation features to assess employee competencies and identify areas for improvement.",
+  "Enhanced talent development and improved internal process efficiency by streamlining training management and facilitating better oversight."
     ],
     "Keywords": ["Angular", "SpringBoot", "Microservices", "Keycloak", "Gateway", "PostgreSQL", "Discovery", "Docker", "AI", "GitLab"]
   },
@@ -40,8 +42,10 @@
     "Title": "Summer Internship",
     "Date": "July - September 2024",
     "Description": [
-      "Designed and developed an innovative application for gyms, centralizing operations related to members, coaches, schedules, and subscriptions.",
-      "Created an ergonomic interface to optimize operational efficiency and user experience."
+        "Designed and developed an innovative application for gyms, centralizing operations related to members, coaches, schedules, and subscriptions.",
+  "Created an ergonomic interface to optimize operational efficiency and enhance user experience.",
+  "Implemented features to manage memberships, track coaching schedules, and monitor subscription statuses effectively.",
+  "Ensured smooth interaction between frontend and backend systems to maintain reliable data flow and consistency."
     ],
     "Keywords": ["Angular", "Node.js", "PrimeNG", "MongoDB", "GitLab"]
   },
@@ -50,8 +54,9 @@
     "Title": "Summer Internship",
     "Date": "August 2023",
     "Description": [
-      "Developed the frontend interface for an e-commerce application specialized in selling IoT devices.",
-      "Implemented business modules for product tracking, order management, and payment processing."
+      "Developed the frontend interface for an e-commerce application specialized in selling IoT devices, ensuring a user-friendly and responsive design.",
+  "Implemented business modules for product tracking, order management, and payment processing, enabling smooth and efficient operations.",
+  "Optimized interface components to improve navigation, usability, and overall user experience."
     ],
     "Keywords": ["Angular", "Bootstrap", "PrimeNG", "GitHub"]
   },
@@ -60,8 +65,10 @@
     "Title": "License Degree Final Year Internship",
     "Date": "February - June 2022",
     "Description": [
-      "Designed and deployed an Electronic Document Management (EDM) solution with automated workflows for document classification, storage, and archiving.",
-      "Optimized internal processes and reduced dependency on paper."
+       "Designed and deployed an Electronic Document Management (EDM) solution with automated workflows for document classification, storage, and archiving, enabling faster and more reliable handling of company documents.",
+  "Developed features to facilitate easy document retrieval, secure storage, and efficient management of digital files, reducing errors and improving accessibility.",
+  "Optimized internal processes by eliminating redundant manual tasks, decreasing dependency on paper, and enhancing overall operational efficiency.",
+  "Provided a scalable solution that supports future growth and ensures compliance with company document management standards."
     ],
     "Keywords": ["Symfony", "Doctrine", "JavaScript", "MySQL", "GitHub"]
   }

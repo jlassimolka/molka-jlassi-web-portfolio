@@ -40,6 +40,13 @@
                 data-animate="fadeInLeft"
                 [attr.data-animate-delay]="i * 200"
               ></p>
+                <!-- ✅ Keywords -->
+              <!-- ✅ Keywords with label -->
+             <div class="job-keywords">
+              <span class="keywords-label">Keywords:</span>
+              <span *ngFor="let kw of job.Keywords" class="keyword">{{ kw }}</span>
+            </div>
+
               <span></span>
             </ng-template>
           </li>
