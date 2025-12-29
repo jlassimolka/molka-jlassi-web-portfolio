@@ -19,9 +19,8 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": {
-                          "base": "dist/molkajlassi_portfolio"
-                        },
+                        "outputPath": "dist/molkajlassi_portfolio",
+
                         "index": "src/index.html",
                         "polyfills": [
                           "src/polyfills.ts"
