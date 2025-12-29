@@ -59,18 +59,22 @@ export class HeaderComponent implements OnInit {
     this.responsiveMenuVisible=false;
   }
 
-  downloadCV(){
-    this.languageService.translateService.get("Header.cvName").subscribe(val => {
-      this.cvName = val
-      console.log(val)
-      // app url
-      let url = window.location.href;
+  downloadCV() {
+  this.languageService.translateService.get("Header.cvName").subscribe(val => {
+    this.cvName = val; // si tu utilises la traduction pour le nom du CV
+    console.log(this.cvName);
 
-      // Open a new window with the CV
-      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
-    })
+    // chemin relatif depuis Angular
+    const cvUrl = 'assets/cv/molka_jlassi_cv.pdf';
 
-  }
+    // créer un lien et déclencher le téléchargement
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = this.cvName || 'Molka_Jlassi_CV.pdf'; // nom du fichier téléchargé
+    link.click();
+  });
+}
+
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
     getScrollPosition(event) {

@@ -44,30 +44,29 @@
                 border-radius: 3px;
             }
             .proyect-skills {
-                position: relative;
-                z-index: 2;
-                display: -webkit-box;
-                display: -webkit-flex;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-flex-wrap: wrap;
-                -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-                padding: 0;
-                margin: 25px 0 10px;
-                list-style: none;
-                li {
-                    margin-right: 0;
-                    font-family: $CodeFont;
-                    font-size: 13px;
-                    color: $Slate;
-                    margin-bottom: 7px;
-                    white-space: nowrap;
-                    .technology{
-                      padding-bottom: 5px;
-                    }
-                }
-            }
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;  // <-- add padding to left so first word is visible
+    padding-right: 10px; // optional, keep some right space
+    margin: 25px 0 10px;
+    list-style: none;
+
+    li {
+        margin-right: 10px;
+        font-family: $CodeFont;
+        font-size: 13px;
+        color: $Slate;
+        margin-bottom: 7px;
+        white-space: nowrap;
+
+        .technology {
+            padding-bottom: 10px;
+        }
+    }
+}
+
             .proyect-links {
                 margin-top: 10px;
                 i {
@@ -190,10 +189,22 @@
 }
 
 .img-container {
-    width: 600px;
-    max-height: 320px;
-    overflow: auto;
+    width: 100%;        // fill parent container width
+    max-width: 600px;   // optional, same as before
+    max-height: 360px;  // match .proyect-container height
+    display: flex;
+    justify-content: center; // horizontal center
+    align-items: center;     // vertical center
+    overflow: hidden;
     border-radius: 3px;
+
+    img.img-feature-proyect {
+        width: 100%;
+        height: auto;       // keep aspect ratio
+        max-height: 100%;   // fit inside container
+        object-fit: contain; // show full image
+        display: block;
+    }
 }
 
 

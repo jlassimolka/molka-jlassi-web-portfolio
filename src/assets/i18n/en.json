@@ -4,7 +4,7 @@
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
   "Header.cvBtn": "Resume",
-  "Header.cvName": "CV_Jose_Hernandez_English.pdf",
+  "Header.cvName": "CV_Molka_Jlassi.pdf",
   "Loading": "Loading...",
 
   "Banner.Pretitle": "Hello! My name is",
@@ -78,156 +78,140 @@
   "FeatureProjects.Label": "Highlighted Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "Gisselle",
-      "Description": "Web application for internal company management that covers sales, collection, and tracking departments, very extensive and complex with various functions made in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
+      "Title": "Learning Management System (LMS)",
+      "Description": "Intelligent Learning Management System for centralizing and automating employee training paths, including <span class='underline'>training request workflows</span>, <span class='underline'>personalized learning tracking</span>, and <span class='underline'>skills assessment</span>, designed to enhance <span class='underline'>talent development</span> and <span class='underline'>internal process efficiency</span>.",
       "imgs": [
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+        "assets/images/lms/Dashlms.png",
+        "assets/images/lms/lms2.png",
+        "assets/images/lms/quiz.png",
+        "assets/images/lms/workflow.png",
+        "assets/images/lms/presenlms.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Angular", "SpringBoot", "Keycloak", "Microservices","Gateway"," PostgreSQL","Docker"," IA","GitLab"]
     },
     {
-      "Title": "Emelteciot",
-      "Description": "Monitoring application for data query, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. The <span class='underline'>chart.js</span> library is applied.",
+      "Title": "GymFlow",
+      "Description":"Development of an innovative application for gyms, centralizing key operations for <span class='underline'>members</span>, <span class='underline'>coaches</span>, <span class='underline'>schedules</span>, and <span class='underline'>subscriptions</span>, with an intuitive interface aimed at optimizing <span class='underline'>operational efficiency</span> and <span class='underline'>user experience</span>.",
       "imgs": [
-        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
-        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+        "assets/images/gymflow/gymflow1.JPG",
+        
+        "assets/images/gymflow/gymflow3.JPG",
+        "assets/images/gymflow/gymflow4.JPG",
+        "assets/images/gymflow/gymflow.JPG"
+       
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Angular", "Node.js", "Express.js","PrimeNG", "MongoDB", "GitLab"]
+    },
+     {
+      "Title": "Automated CI/CD for a School Management Application",
+      "Description": "Automation of a <span class='underline'>CI/CD pipeline</span> for a school management application. Integration of <span class='underline'>Nexus</span>, <span class='underline'>SonarQube</span>, <span class='underline'>Jenkins</span>, and <span class='underline'>Prometheus/Grafana</span> for automation and monitoring. <span class='underline'>Mockito tests</span>, <span class='underline'>JaCoCo reports</span>, and <span class='underline'>security scans</span> ensure reliable deployments.",
+      "imgs": [
+        "assets/images/devops/1devops.jpg",
+        "assets/images/devops/2devops.jpg",
+        "assets/images/devops/3devops.jpg",
+        "assets/images/devops/4devops.jpg"
+        
+      ],
+      "Technologies": ["Docker", "Jenkins", "Nexus", "SonarQube", "Mockito", "Grafana", "Prometheus"]
     },
     {
-      "Title": "Vas Aviation",
-      "Description": "Application for tracking fuel supply requests for aircraft. It has an <span class='underline'>email module</span>, <span class='underline'>real-time notifications</span>, <span class='underline'>CSV file handling for data import</span>, <span class='underline'>price quotes</span>. Developed in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>.",
+      "Title": "IoTShop ",
+      "Description": "Development of the <span class='underline'>frontend interface</span> of an e-commerce application specialized in selling IoT devices, with implementation of <span class='underline'>business modules</span> for <span class='underline'>product tracking</span>, <span class='underline'>order management</span>, and <span class='underline'>payment processing</span>. Developed using <span class='underline'>Angular</span> and <span class='underline'>PrimeNG</span>.",
       "imgs": [
-        "assets/images/vasaviation/capture0.png",
-        "assets/images/vasaviation/capture1.png",
-        "assets/images/vasaviation/capture2.png",
-        "assets/images/vasaviation/capture3.png",
-        "assets/images/vasaviation/capture4.png",
-        "assets/images/vasaviation/capture5.png"
+        "assets/images/iot/capac.png",
+        "assets/images/iot/produits.PNG",
+        "assets/images/iot/article details.PNG",
+        "assets/images/iot/panier.jpg"
+
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Angular", "PrimeNG", "GitHub", "TypeScript"]
+    },
+    
+   
+    
+    {
+      "Title": "MY WAY",
+      "Description": "Design and development of a <span class='underline'>tourist transport application</span> that guides tourists through their <span class='underline'>itineraries</span> and displays available <span class='underline'>transport options</span> and <span class='underline'>routes</span>. The application includes <span class='underline'>web</span> and <span class='underline'>mobile user interfaces</span> for a smooth and seamless experience. Developed using <span class='underline'>JavaFX</span>, <span class='underline'>Symfony framework</span>, <span class='underline'>MySQL</span>, and <span class='underline'>GitHub</span>.",
+      "imgs": [
+        "assets/images/myway/myway3.PNG",
+        "assets/images/myway/myway.PNG"
+       
+       
+      ],
+      "Technologies": ["JavaFX", "Symfony", "MySQL", "GitHub"]
+    },
+    
+    {
+      "Title": "LearnToCode",
+      "Description": "Development of an <span class='underline'>interactive e-learning website</span> including <span class='underline'>training sections</span>, <span class='underline'>assessments</span>, and <span class='underline'>learner progress tracking</span>. The interface is designed to be <span class='underline'>intuitive</span> and <span class='underline'>engaging</span>, facilitating online learning. Developed using <span class='underline'>JavaScript</span>, <span class='underline'>HTML5</span>, and <span class='underline'>CSS</span>.",
+      "imgs": [
+        "assets/images/learntocode/elear1.PNG",
+        "assets/images/learntocode/elear2.PNG"
+       
+      ],
+      "Technologies": ["JavaScript", "HTML5", "CSS"]
     },
     {
-      "Title": "GlobalJobs",
-      "Description": "E-learning platform developed with WordPress. Fully customized design, with plugins developed from scratch. It has a customized payment module, virtual classroom, course tracking dashboard.",
+      "Title": "Electronic Document Management (EDM) Solution",
+      "Description": "Design and deployment of an <span class='underline'>Electronic Document Management (EDM) solution</span> integrating <span class='underline'>automated workflows</span> for document classification, storage, and archiving, optimizing internal processes and reducing paper dependency. Developed with <span class='underline'>Symfony</span>, <span class='underline'>Doctrine</span>, <span class='underline'>JavaScript</span>, and <span class='underline'>MySQL</span>.",
       "imgs": [
-        "assets/images/globaljobs/capture1.png",
-        "assets/images/globaljobs/capture2.png",
-        "assets/images/globaljobs/capture3.png",
-        "assets/images/globaljobs/capture4.png",
-        "assets/images/globaljobs/capture5.png",
-        "assets/images/globaljobs/capture6.png"
+        "assets/images/ged/listediff.PNG",
+        "assets/images/ged/g-document.png"
+        
+        
       ],
-      "Technologies": ["WordPress", "WordPress Codex", "PHP", "MySQL"]
-    },
-    {
-      "Title": "MBElectronics",
-      "Description": "E-commerce platform for technology products. Developed with WordPress and implementing a shipping system for products. It has sales reporting through customized programming.",
-      "imgs": [
-        "assets/images/mbelectronics/capture0.png",
-        "assets/images/mbelectronics/capture1.png",
-        "assets/images/mbelectronics/capture2.png"
-      ],
-      "Technologies": ["WordPress", "Elementor", "Woocommerce", "WordPress Codex", "PHP", "MySQL"]
-    },
-    {
-      "Title": "Agrourbana",
-      "Description": "Monitoring application made from scratch with an auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has logic for reactive forms for parameter configuration.",
-      "imgs": [
-        "assets/images/agrourbana/agrourbana1.png",
-        "assets/images/agrourbana/agrourbana2.png",
-        "assets/images/agrourbana/agrourbana3.png",
-        "assets/images/agrourbana/agrourbana4.png",
-        "assets/images/agrourbana/agrourbana5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-    {
-      "Title": "Tu Super Plan",
-      "Description": "Health plans quoter that has an advanced search engine. The plans are shown based on the user's age, monthly income, and location. It has a <span class='underline'>live chat</span>, <span class='underline'>contact form</span>, <span class='underline'>notification system via WhatsApp and email</span>, <span class='underline'>auth</span>, and <span class='underline'>internal information management through the admin role</span>.",
-      "imgs": [
-        "assets/images/tusuperplan/tusuperplan1.png",
-        "assets/images/tusuperplan/tusuperplan2.png",
-        "assets/images/tusuperplan/tusuperplan3.png",
-        "assets/images/tusuperplan/tusuperplan4.png",
-        "assets/images/tusuperplan/tusuperplan5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-    {
-      "Title": "Proyexiot",
-      "Description": "Data monitoring platform for water wells, tugboats, and various installations made from scratch with an auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers</span>. It also has logic for reactive forms for parameter configuration.",
-      "imgs": [
-        "assets/images/proyex/proyex1.png",
-        "assets/images/proyex/proyex2.png",
-        "assets/images/proyex/proyex3.png",
-        "assets/images/proyex/proyex4.png",
-        "assets/images/proyex/proyex5.png",
-        "assets/images/proyex/proyex6.png",
-        "assets/images/proyex/proyex7.png",
-        "assets/images/proyex/proyex8.png",
-        "assets/images/proyex/proyex9.png",
-        "assets/images/proyex/proyex10.png",
-        "assets/images/proyex/proyex11.png",
-        "assets/images/proyex/proyex12.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Symfony", "Doctrine", "JavaScript", "MySQL", "GitHub"]
     }
   ],
 
   "OtherProjects.Title": "More Projects",
   "OtherProjects.Projects": [
     {
-      "Title": "Hands Game",
-      "Description": "Extended rock-paper-scissors game. A personal project developed in Angular where you play randomly against the machine. It features the use of services, interfaces, and components.",
-      "imgs": ["assets/images/hands-game.png"],
-      "ghLink": "https://github.com/andresjosehr/hands-game",
-      "demoLink": "https://projects.andresjosehr.com/hands-game",
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+      "Title": "EduConect",
+      "Description": "Microservices project using Node.js, Spring Boot, MongoDB, MySQL, and Docker. It includes management of students and contacts via separate Spring services. Each service is containerized with Docker, enabling simplified management and smooth deployment of the infrastructure.",
+      "ghLink": "https://github.com/jlassimolka/EduConnect.git",
+      "Technologies": ["Node.js", "Spring Boot", "MongoDB", "MySQL", "Docker"]
+      
+      
     },
-    {
-      "Title": "Countries Viewer",
-      "Description": "Interface that consumes a countries API where you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-      "imgs": ["assets/images/countries-viewer.png"],
-      "ghLink": "https://github.com/andresjosehr/countries-viewer",
-      "demoLink": "https://projects.andresjosehr.com/countries-viewer",
-      "Technologies": ["Angular", "RxJS", "SASS", "API"]
-    },
-    {
-      "Title": "Four Card Feature Section",
-      "Description": "A single page with a minimalist design listing 4 features in 4 cards. Entry animations are used with Angular animations.",
-      "ghLink": "https://github.com/andresjosehr/four-card-feature-section",
-      "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
-      "Technologies": ["Angular", "SASS", "CSS GRID"]
-    },
-    {
-      "Title": "Social Proof Section",
-      "Description": "Personal project of a page designed from a design made in Figma. Angular was used for development along with SASS and CSS GRID.",
-      "ghLink": "https://github.com/andresjosehr/social-proof-section",
-      "demoLink": "https://projects.andresjosehr.com/social-proof-section",
-      "Technologies": ["Angular", "CSS GRID", "GIT"]
-    },
-    {
-      "Title": "FAQ Accordion Card",
-      "Description": "Frequently asked questions accordion with logic and animations made in Angular.",
-      "ghLink": "https://github.com/andresjosehr/faq-accordion",
-      "demoLink": "https://projects.andresjosehr.com/faq-accordion",
-      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-    },
-    {
-      "Title": "Profile Card",
-      "Description": "Simple design of a page featuring a profile card with basic information of a person.",
-      "ghLink": "https://github.com/andresjosehr/profile-card-component",
-      "demoLink": "https://projects.andresjosehr.com/profile-card-component",
-      "Technologies": ["Angular", "SASS", "GIT"]
+
+   {
+     "Title": "Book Reservation Manager",
+     "Description": "Android application for managing book reservations, featuring full CRUD operations, search functionality, calendar-based reservations, and pagination for smooth and user-friendly navigation.",
+     "ghLink": "https://github.com/jlassimolka/BookReservationManager.git",
+     "Technologies": ["Android", "Java", "CRUD", "SQLite", "Calendar"]
     }
+    ,
+     {
+   "Title": "Alumni-Job Clustering",
+   "Description": "Application using K-Means clustering to group alumni and job offers based on their characteristics. It matches alumni with offers in their cluster and visualizes the number of offers per domain. Users can enter an alumni ID to get the corresponding offers.",
+   "ghLink": "https://github.com/jlassimolka/K-means_offers_profiles.git", 
+   "Technologies": ["Python", "Machine Learning", "K-Means", "Data Visualization"]
+    }
+,
+ {
+  "Title": "Hireflix",
+  "Description": "Full-stack application with Angular frontend and Spring Boot backend for managing students in the Hireflix platform, dedicated to company forums. Features include search and scheduled tasks using Spring Cron.",
+  "ghLink": "https://github.com/jlassimolka/hireflix-backend.git",
+  "Technologies": ["Angular", "Spring Boot", "MySQL", "Spring Cron"]
+},
+   {
+  "Title": "Selenium Automation Project",
+  "Description": "This repository contains a hands-on Selenium automation testing project using Java. It is designed to learn UI test automation by building a real project, following best practices such as Page Object Model (POM), TestNG, and Maven.",
+  "ghLink": "https://github.com/jlassimolka/java-selenium-automation.git",
+  "Technologies": ["Selenium", "Java", "TestNG", "Maven", "UI Automation"]
+}
+
+,
+    
+ 
+    {
+  "Title": "GymFlow",
+  "Description": "Web application that makes it easy to search for gyms and coaches, view their services, and book sessions online. It provides a simple and intuitive interface for optimal management of users' fitness journey.",
+  "ghLink": "https://github.com/jlassimolka/GymFlow_Backend.git",
+  "Technologies": ["Node.js", "Angular", "PrimeNG", "MongoDB"]
+   }
+
   ],
 
   "Contact.Pretitle": "And... Now?",

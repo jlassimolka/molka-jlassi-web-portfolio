@@ -1,271 +1,197 @@
 {
-  "Header.Item1": "Acerca de mí",
-  "Header.Item2": "Experiencia",
-  "Header.Item3": "Proyectos",
-  "Header.Item4": "Contacto",
-  "Header.cvBtn": "Curriculum",
-  "Header.cvName": "CV_Jose_Hernandez_Espanol.pdf",
-  "Loading": "Cargando...",
+  "Header.Item1": "À propos de moi",
+  "Header.Item2": "Expérience",
+  "Header.Item3": "Projets",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "CV",
+  "Header.cvName": "CV_Molka_Jlassi.pdf",
+  "Loading": "Chargement...",
 
-  "Banner.Pretitle": "Hola! Mi nombre es",
-  "Banner.Description": "Tengo <span class='underline'>+10 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span> aplicando buenas prácticas y estándares de desarrollo.",
-  "Banner.ActionBtn": "Salúdame",
+  "Banner.Pretitle": "Bonjour ! Je m'appelle",
+  "Banner.Description": "Je suis diplômée en ingénierie de l'architecture logicielle de l'ESPRIT, motivée pour commencer ma carrière en tant qu'ingénieure logiciel afin de transformer mes connaissances en solutions réelles. Passionnée par les nouvelles technologies, la conception de systèmes performants, <span class='underline'>le développement web</span> et <span class='underline'>les tests logiciels</span>, je suis dédiée à contribuer à des projets innovants et à apporter une réelle valeur à l'équipe.",
+  "Banner.ActionBtn": "Dire Bonjour",
 
-  "AboutMe.Title": "Acerca de mí",
+  "AboutMe.Title": "À propos de moi",
   "AboutMe.Paragraphs": [
-    "En <span class='underline'>+10 años de experiencia</span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>líder técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
-    "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que esté trabajando.",
-    "También programo cosas para mi uso personal, bien sea por hobby o por utilidad.",
-    "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"
+    "Au cours de mes projets académiques et professionnels, j'ai eu l'occasion de travailler sur des applications réelles qui ont renforcé mes compétences techniques et en résolution de problèmes. J'aime transformer les idées en solutions fonctionnelles et conviviales.",
+    "J'ai contribué à plusieurs projets logiciels impactants impliquant la conception, le développement et l'amélioration d'applications réelles. Ces expériences m'ont permis de collaborer efficacement avec des équipes, de comprendre les besoins métiers et de concevoir des workflows techniques efficaces et évolutifs.",
+    "J'aime également explorer les outils de qualité logicielle et d'automatisation. J'ai travaillé avec des pipelines CI/CD, des pratiques de tests et des environnements de développement modernes pour garantir un code propre, fiable et maintenable.",
+    "Certains des outils, frameworks et architectures que j'utilise fréquemment incluent (mais ne sont pas limités à) :"
   ],
 
-  "Experience.Title": "Experiencia",
+  "Experience.Title": "Expérience",
   "Experience.Jobs": [
     {
-      "Tab": "Global",
-      "Title": "Fullstack developer",
-      "Date": "Mayo 2023",
+      "Tab": "ACTIA",
+      "Title": "Stage de fin d'études d'ingénieur",
+      "Date": "Février - Août 2025",
       "Description": [
-        "Líder en la toma de decisiones técnicas",
-        "Contratación de talento técnico para la empresa",
-        "Líder de equipo del departamento de tecnología",
-        "Creación y mantenimiento de una plataforma de gestión de procesos internos para ventas de cursos",
-        "Programación de funciones y plugins personalizados para personalización de una plataforma de WordPress",
-        "Implementación de integración continua y respaldos diarios.",
-        "Reuniones de planificación en informes."
-      ]
+        "Conception et développement d'un système de gestion de formation intelligent pour centraliser et automatiser les parcours de formation des employés, améliorant l'accessibilité et l'organisation des supports de formation.",
+        "Intégration d'un workflow de gestion des demandes permettant aux employés de soumettre des demandes de formation et aux managers de les suivre et approuver efficacement.",
+        "Mise en place d'un suivi personnalisé de l'apprentissage pour surveiller les progrès des employés et fournir des retours pertinents.",
+        "Ajout de fonctionnalités d'évaluation des compétences pour identifier les domaines à améliorer.",
+        "Amélioration du développement des talents et de l'efficacité des processus internes en rationalisant la gestion de la formation et en facilitant une meilleure supervision."
+      ],
+      "Keywords": ["Angular", "SpringBoot", "Microservices", "Keycloak", "Gateway", "PostgreSQL", "Discovery", "Docker", "IA", "GitLab"]
     },
     {
-      "Tab": "Proyex",
-      "Title": "Fullstack developer",
-      "Date": "Diciembre 2019 - Mayo 2023",
+      "Tab": "Ticgeek",
+      "Title": "Stage d'été",
+      "Date": "Juillet - Septembre 2024",
       "Description": [
-        "Creación y mantenimiento de una plataforma de monitoreo con gráficos en Wordpress.",
-        "Programación funcional en plantillas y plugins para añadir las características necesarias de monitoreo.",
-        "Implementación de integración continua y respaldos diarios.",
-        "Creación y mantenimiento de una segunda plataforma de Monitoreo Realizada en Angular, Angular Material, Laravel, Mysql, RxJS, Sass con gráficos (configurables), sistema de alarmas, y gestión de usuarios y configuración de parámetros generales.",
-        "Reuniones de planificación en informes."
-      ]
+        "Conception et développement d'une application innovante pour les salles de sport, centralisant les opérations liées aux membres, aux coachs, aux plannings et aux abonnements.",
+        "Création d'une interface ergonomique pour optimiser l'efficacité opérationnelle et améliorer l'expérience utilisateur.",
+        "Mise en place de fonctionnalités pour gérer les adhésions, suivre les plannings des coachs et surveiller efficacement l'état des abonnements.",
+        "Assurer l'interaction fluide entre le frontend et le backend pour maintenir un flux de données fiable et cohérent."
+      ],
+      "Keywords": ["Angular", "Node.js", "PrimeNG", "MongoDB", "GitLab"]
     },
     {
-      "Tab": "Freelancer",
-      "Title": "Independiente",
-      "Date": "Mayo 2016 - Actualidad",
+      "Tab": "Onwireway",
+      "Title": "Stage d'été",
+      "Date": "Août 2023",
       "Description": [
-        "Implementación de mejoras continuas, trabajando en frontend y backend.",
-        "Creación de plataformas con Angular, Laravel, WordPress programadas con paradigmas de programación funcional, reactiva y orientada a objetos.",
-        "Automatización de procesos con estructuras de datos.",
-        "Maquetación de diseños con SASS, Bootstrap, Materialize, Bulma, etc."
-      ]
+        "Développement de l'interface frontend d'une application e-commerce spécialisée dans la vente de dispositifs IoT, garantissant un design convivial et responsive.",
+        "Implémentation des modules métiers pour le suivi des produits, la gestion des commandes et le traitement des paiements, assurant des opérations fluides et efficaces.",
+        "Optimisation des composants de l'interface pour améliorer la navigation, l'ergonomie et l'expérience utilisateur globale."
+      ],
+      "Keywords": ["Angular", "Bootstrap", "PrimeNG", "GitHub"]
     },
     {
-      "Tab": "Moebius",
-      "Title": "FullStack developer",
-      "Date": "Julio 2017 - Octubre 2018",
+      "Tab": "Premiere Consulting",
+      "Title": "Stage de fin d'études Licence",
+      "Date": "Février - Juin 2022",
       "Description": [
-        "Liderando un equipo de 4 personas en el desarrollo de una plataforma de gestión de Datos de turismo hecha en Angular, Laravel y MySQL. ",
-        "Implementación de CI/CD en Azure. Refactorizando y optimizando tiempos de carga de la aplicación.",
-        "Codificación de peticiones a API con RxJS.",
-        "Creación de módulos con formularios reactivos complejos",
-        "Redacción de informes semanales acerca de metas y planes."
-      ]
-    },
-    {
-      "Tab": "TechLatam",
-      "Title": "Frontend developer",
-      "Date": "Febrero 2016 - Mayo 2017",
-      "Description": [
-        "Creación de plantillas de WordPress con ACF, programación funcional en JavaScript / jQuery, estilos en SASS",
-        "Integración de mejoras en diseño y tiempos de carga de plantillas.",
-        "Comunicación efectiva con equipo de diseño, trabajando con Avocode / Figma"
-      ]
-    },
-    {
-      "Tab": "CANTV",
-      "Title": "Analista de sistema",
-      "Date": "Noviembre 2015 - Diciembre 2016",
-      "Description": [
-        "Programación de nuevas funcionalidades para una plataforma de gestión de empleados existente realizada en Angular y ExpressJS",
-        "Realizar refactorización de código antiguo. Asegurar la compatibilidad de cada dependencia en cada actualización, junto también con la actualización regular de Angular."
-      ]
-    },
-    {
-      "Tab": "IEP",
-      "Title": "Profesor de Inglés",
-      "Date": "Enero 2015 - Julio 2015",
-      "Description": [
-        "Enseñando inglés a nivel básico a una matrícula de más de 200 alumnos."
-      ]
+        "Conception et déploiement d'une solution de gestion électronique des documents (GED) avec workflows automatisés pour la classification, le stockage et l'archivage des documents, permettant une gestion plus rapide et fiable des documents de l'entreprise.",
+        "Développement de fonctionnalités pour faciliter la récupération facile des documents, le stockage sécurisé et la gestion efficace des fichiers numériques, réduisant les erreurs et améliorant l'accessibilité.",
+        "Optimisation des processus internes en éliminant les tâches manuelles redondantes, diminuant la dépendance au papier et améliorant l'efficacité opérationnelle globale.",
+        "Fourniture d'une solution évolutive supportant la croissance future et garantissant la conformité aux standards de gestion documentaire de l'entreprise."
+      ],
+      "Keywords": ["Symfony", "Doctrine", "JavaScript", "MySQL", "GitHub"]
     }
   ],
 
-  "FeatureProjects.Title": "Mis proyectos",
-  "FeatureProjects.Label": "Proyecto Destacado",
+  "FeatureProjects.Title": "Mes Projets",
+  "FeatureProjects.Label": "Projet Mis en Avant",
   "FeatureProjects.Projects": [
     {
-      "Title": "Gisselle",
-      "Description": "Aplicación web para gestión interna de empresa que abarca departamento de ventas, cobranza y seguimiento muy extensa y compleja con diversas funciones hecha en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Trabaja con <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>jobs de Laravel</span>, integraciones con WordPress, Zadarma, LiveConnect, etc.",
+      "Title": "Système de Gestion de Formation (LMS)",
+      "Description": "Système intelligent de gestion de formation pour centraliser et automatiser les parcours de formation des employés, incluant <span class='underline'>les workflows de demande de formation</span>, <span class='underline'>le suivi personnalisé de l'apprentissage</span> et <span class='underline'>l'évaluation des compétences</span>, conçu pour améliorer le <span class='underline'>développement des talents</span> et <span class='underline'>l'efficacité des processus internes</span>.",
       "imgs": [
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+        "assets/images/lms/Dashlms.png",
+        "assets/images/lms/lms2.png",
+        "assets/images/lms/quiz.png",
+        "assets/images/lms/workflow.png",
+        "assets/images/lms/presenlms.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-
-    {
-      "Title": "Emelteciot",
-      "Description": "Aplicación de monitoreo para consulta de datos, hecha con <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Se aplica la librería de gráficos <span class='underline'>chart.js</span>",
-      "imgs": [
-        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
-        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-
-
-
-
-    {
-      "Title": "Vas Aviation",
-      "Description": "Aplicación de seguimiento de solicitudes para combustible de aeronaves. Cuenta con <span class='underline'>módulo de correo electrónico</span>, <span class='underline'>notificaciones en tiempo real</span>, <span class='underline'>manejo de archivos CSV para importación de datos</span>, <span class='underline'>cotizaciones de precio</span>, etc. Desarrollada en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>",
-      "imgs": [
-        "assets/images/vasaviation/capture0.png",
-        "assets/images/vasaviation/capture1.png",
-        "assets/images/vasaviation/capture2.png",
-        "assets/images/vasaviation/capture3.png",
-        "assets/images/vasaviation/capture4.png",
-        "assets/images/vasaviation/capture5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-
-    {
-      "Title": "GlobalJobs",
-      "Description": "Plataforma e-learning desarrollada con WordPress. Diseño totalmente personalizado, con plugins desarrollados desde cero. Cuenta con módulo de pagos personalizados, aula virtual, dashboard de seguimiento de cursos",
-      "imgs": [
-        "assets/images/globaljobs/capture1.png",
-        "assets/images/globaljobs/capture2.png",
-        "assets/images/globaljobs/capture3.png",
-        "assets/images/globaljobs/capture4.png",
-        "assets/images/globaljobs/capture5.png",
-        "assets/images/globaljobs/capture6.png"
-      ],
-      "Technologies": ["WordPress", "WordPress Codex", "PHP", "MySQL"]
-    },
-
-    {
-      "Title": "GlobalJobs",
-      "Description": "Plataforma e-commerce de productos de tecnología. Desarrollada con WordPress e implementando un sistema de envíos para los productos. Cuenta con reporte de ventas mediante programación personalizada",
-      "imgs": [
-        "assets/images/mbelectronics/capture0.png",
-        "assets/images/mbelectronics/capture1.png",
-        "assets/images/mbelectronics/capture2.png"
-      ],
-      "Technologies": ["WordPress", "Elementor", "WooCommerce", "WordPress Codex", "PHP", "MySQL"]
-    },
-
-
-    {
-      "Title": "Agrourbana",
-      "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span> y <span class='underline'>gestión de usuarios</span>. Cuenta también con lógica de formularios reactivos para la configuración de parámetros.",
-      "imgs": [
-        "assets/images/agrourbana/agrourbana1.png",
-        "assets/images/agrourbana/agrourbana2.png",
-        "assets/images/agrourbana/agrourbana3.png",
-        "assets/images/agrourbana/agrourbana4.png",
-        "assets/images/agrourbana/agrourbana5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Angular", "SpringBoot", "Keycloak", "Microservices", "Gateway", "PostgreSQL", "Docker", "IA", "GitLab"]
     },
     {
-      "Title": "Tu super plan",
-      "Description": "Cotizador de planes de salud que cuenta con un buscador con el que se hacen consultas avanzadas. Los planes son mostrados en base a la edad, ingreso mensual y ubicación del usuario. Cuenta con <span class='underline'>chat en línea</span>, <span class='underline'>formulario de contacto</span>, <span class='underline'>sistema de notificaciones por WhatsApp y correo</span>, <span class='underline'>auth</span>, y <span class='underline'>gestión de información interna a través del rol de administrador</span>.",
+      "Title": "GymFlow",
+      "Description":"Développement d'une application innovante pour les salles de sport, centralisant les opérations clés pour les <span class='underline'>membres</span>, les <span class='underline'>coach</span>, les <span class='underline'>plannings</span> et les <span class='underline'>abonnements</span>, avec une interface intuitive visant à optimiser <span class='underline'>l'efficacité opérationnelle</span> et <span class='underline'>l'expérience utilisateur</span>.",
       "imgs": [
-        "assets/images/tusuperplan/tusuperplan1.png",
-        "assets/images/tusuperplan/tusuperplan2.png",
-        "assets/images/tusuperplan/tusuperplan3.png",
-        "assets/images/tusuperplan/tusuperplan4.png",
-        "assets/images/tusuperplan/tusuperplan5.png"
+        "assets/images/gymflow/gymflow1.JPG",
+        "assets/images/gymflow/gymflow3.JPG",
+        "assets/images/gymflow/gymflow4.JPG",
+        "assets/images/gymflow/gymflow.JPG"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Angular", "Node.js", "Express.js", "PrimeNG", "MongoDB", "GitLab"]
     },
     {
-      "Title": "Proyexiot",
-      "Description": "Plataforma de monitoreo de datos pertenecientes a pozos de agua, remolcadores y diversas instalaciones realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span>, <span class='underline'>gestión de usuarios</span> y <span class='underline'>geolocalización con OpenLayers</span>. Cuenta también con lógica de formularios reactivos para la configuración de parámetros.",
+      "Title": "Automatisation CI/CD pour une application scolaire",
+      "Description": "Automatisation d'un <span class='underline'>pipeline CI/CD</span> pour une application de gestion scolaire. Intégration de <span class='underline'>Nexus</span>, <span class='underline'>SonarQube</span>, <span class='underline'>Jenkins</span> et <span class='underline'>Prometheus/Grafana</span> pour l'automatisation et la supervision. <span class='underline'>Tests Mockito</span>, <span class='underline'>rapports JaCoCo</span> et <span class='underline'>analyses de sécurité</span> assurent des déploiements fiables.",
       "imgs": [
-        "assets/images/proyex/proyex1.png",
-        "assets/images/proyex/proyex2.png",
-        "assets/images/proyex/proyex3.png",
-        "assets/images/proyex/proyex4.png",
-        "assets/images/proyex/proyex5.png",
-        "assets/images/proyex/proyex6.png",
-        "assets/images/proyex/proyex7.png",
-        "assets/images/proyex/proyex8.png",
-        "assets/images/proyex/proyex9.png",
-        "assets/images/proyex/proyex10.png",
-        "assets/images/proyex/proyex11.png",
-        "assets/images/proyex/proyex12.png"
+        "assets/images/devops/1devops.jpg",
+        "assets/images/devops/2devops.jpg",
+        "assets/images/devops/3devops.jpg",
+        "assets/images/devops/4devops.jpg"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Docker", "Jenkins", "Nexus", "SonarQube", "Mockito", "Grafana", "Prometheus"]
+    },
+    {
+      "Title": "IoTShop",
+      "Description": "Développement de l'<span class='underline'>interface frontend</span> d'une application e-commerce spécialisée dans la vente de dispositifs IoT, avec implémentation des <span class='underline'>modules métiers</span> pour le <span class='underline'>suivi des produits</span>, la <span class='underline'>gestion des commandes</span> et le <span class='underline'>traitement des paiements</span>. Développé avec <span class='underline'>Angular</span> et <span class='underline'>PrimeNG</span>.",
+      "imgs": [
+        "assets/images/iot/capac.png",
+        "assets/images/iot/produits.PNG",
+        "assets/images/iot/article details.PNG",
+        "assets/images/iot/panier.jpg"
+      ],
+      "Technologies": ["Angular", "PrimeNG", "GitHub", "TypeScript"]
+    },
+    {
+      "Title": "MY WAY",
+      "Description": "Conception et développement d'une <span class='underline'>application de transport touristique</span> guidant les touristes à travers leurs <span class='underline'>itinéraires</span> et affichant les <span class='underline'>options de transport</span> et <span class='underline'>trajets</span> disponibles. L'application inclut des interfaces <span class='underline'>web</span> et <span class='underline'>mobiles</span> pour une expérience fluide. Développée avec <span class='underline'>JavaFX</span>, <span class='underline'>Symfony</span>, <span class='underline'>MySQL</span> et <span class='underline'>GitHub</span>.",
+      "imgs": [
+        "assets/images/myway/myway3.PNG",
+        "assets/images/myway/myway.PNG"
+      ],
+      "Technologies": ["JavaFX", "Symfony", "MySQL", "GitHub"]
+    },
+    {
+      "Title": "LearnToCode",
+      "Description": "Développement d'un <span class='underline'>site e-learning interactif</span> incluant des <span class='underline'>sections de formation</span>, des <span class='underline'>évaluations</span> et le <span class='underline'>suivi des progrès des apprenants</span>. L'interface est conçue pour être <span class='underline'>intuitive</span> et <span class='underline'>engageante</span>. Développé avec <span class='underline'>JavaScript</span>, <span class='underline'>HTML5</span> et <span class='underline'>CSS</span>.",
+      "imgs": [
+        "assets/images/learntocode/elear1.PNG",
+        "assets/images/learntocode/elear2.PNG"
+      ],
+      "Technologies": ["JavaScript", "HTML5", "CSS"]
+    },
+    {
+      "Title": "Solution de Gestion Électronique des Documents (GED)",
+      "Description": "Conception et déploiement d'une <span class='underline'>solution GED</span> intégrant des <span class='underline'>workflows automatisés</span> pour la classification, le stockage et l'archivage des documents, optimisant les processus internes et réduisant la dépendance au papier. Développée avec <span class='underline'>Symfony</span>, <span class='underline'>Doctrine</span>, <span class='underline'>JavaScript</span> et <span class='underline'>MySQL</span>.",
+      "imgs": [
+        "assets/images/ged/listediff.PNG",
+        "assets/images/ged/g-document.png"
+      ],
+      "Technologies": ["Symfony", "Doctrine", "JavaScript", "MySQL", "GitHub"]
     }
+    
   ],
 
-  "OtherProjects.Title": "Más proyectos",
+  "OtherProjects.Title": "Autres Projets",
   "OtherProjects.Projects": [
     {
-      "Title": "Hands game",
-      "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en Angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
-      "imgs": ["assets/images/hands-game.png"],
-      "ghLink": "https://github.com/andresjosehr/hands-game",
-      "demoLink": "https://proyectos.andresjosehr.com/hands-game",
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+      "Title": "EduConect",
+      "Description": "Projet microservices utilisant Node.js, Spring Boot, MongoDB, MySQL et Docker. Il inclut la gestion des étudiants et contacts via des services Spring séparés. Chaque service est containerisé avec Docker, facilitant la gestion et le déploiement de l'infrastructure.",
+      "ghLink": "https://github.com/jlassimolka/EduConnect.git",
+      "Technologies": ["Node.js", "Spring Boot", "MongoDB", "MySQL", "Docker"]
     },
     {
-      "Title": "Countries viewer",
-      "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Además cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
-      "imgs": ["assets/images/countries-viewer.png"],
-      "ghLink": "https://github.com/andresjosehr/countries-viewer",
-      "demoLink": "https://proyectos.andresjosehr.com/countries-viewer",
-      "Technologies": ["Angular", "RxJS", "SASS", "API"]
+      "Title": "Book Reservation Manager",
+      "Description": "Application Android pour gérer les réservations de livres, incluant toutes les opérations de gestion, recherche, réservations basées sur le calendrier et pagination pour une navigation fluide.",
+      "ghLink": "https://github.com/jlassimolka/BookReservationManager.git",
+      "Technologies": ["Android", "Java", "CRUD", "SQLite", "Calendrier"]
     },
     {
-      "Title": "Four card feature section",
-      "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con Angular animations.",
-      "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
-      "demoLink": "https://proyectos.andresjosehr.com/four-card-feature-section",
-      "Technologies": ["Angular", "SASS", "CSS GRID"]
+      "Title": "Alumni-Job Clustering",
+      "Description": "Application utilisant le clustering K-Means pour regrouper les alumni et les offres d'emploi selon leurs caractéristiques. Elle permet d'associer chaque alumni aux offres de son cluster et de visualiser la répartition des offres par domaine.",
+      "ghLink": "https://github.com/jlassimolka/K-means_offers_profiles.git",
+      "Technologies": ["Python", "Machine Learning", "K-Means", "Visualisation de données"]
     },
     {
-      "Title": "Social proof section",
-      "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en Figma. Se utilizó Angular para el desarrollo junto con SASS y CSS GRID.",
-      "ghLink": "https://github.com/andresjosehr/social-proof-section",
-      "demoLink": "https://proyectos.andresjosehr.com/social-proof-section",
-      "Technologies": ["Angular", "CSS GRID", "GIT"]
+      "Title": "Hireflix",
+      "Description": "Application full-stack avec frontend Angular et backend Spring Boot pour gérer les étudiants sur la plateforme Hireflix, dédiée aux forums d'entreprise. Inclut recherche et tâches planifiées via Spring Cron.",
+      "ghLink": "https://github.com/jlassimolka/hireflix-backend.git",
+      "Technologies": ["Angular", "Spring Boot", "MySQL", "Spring Cron"]
     },
+   {
+    "Title": "Projet d'Automatisation Selenium",
+    "Description": "Projet pratique d'automatisation de tests UI avec Selenium en Java, utilisant Page Object Model (POM), TestNG et Maven.",
+    "ghLink": "https://github.com/jlassimolka/java-selenium-automation.git",
+    "Technologies": ["Selenium", "Java", "TestNG", "Maven", "Automatisation UI"]
+   }
+   ,
     {
-      "Title": "FAQ accordion card",
-      "Description": "Acordeón de preguntas frecuentes con lógica y animaciones realizadas en Angular.",
-      "ghLink": "https://github.com/andresjosehr/faq-accordion",
-      "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
-      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-    },
-    {
-      "Title": "Profile card",
-      "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
-      "ghLink": "https://github.com/andresjosehr/profile-card-component",
-      "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
-      "Technologies": ["Angular", "SASS", "GIT"]
+      "Title": "GymFlow",
+      "Description": "Application web facilitant la recherche de salles de sport et de coachs, la consultation de leurs services et la réservation de séances en ligne. Fournit une interface simple et intuitive pour une gestion optimale du parcours sportif des utilisateurs.",
+      "ghLink": "https://github.com/jlassimolka/GymFlow_Backend.git",
+      "Technologies": ["Node.js", "Angular", "PrimeNG", "MongoDB"]
     }
   ],
 
-  "Contact.Pretitle": "Y... ¿Ahora?",
-  "Contact.Title": "¡Salúdame!",
-  "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
-  "Contact.Btn": "Contactame"
+  "Contact.Pretitle": "Et... maintenant ?",
+  "Contact.Title": "Dis-moi bonjour !",
+  "Contact.Content": "Je serai ravie de vous lire si vous souhaitez discuter de nouvelles opportunités. Écrivez-moi, et je répondrai dès que je verrai votre message.",
+  "Contact.Btn": "Contactez-moi"
 }
