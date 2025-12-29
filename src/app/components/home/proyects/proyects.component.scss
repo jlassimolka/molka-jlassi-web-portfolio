@@ -236,3 +236,23 @@
  ::-webkit-scrollbar-thumb:hover {
     background: $Green;
 }
+/* Mobile carousel under title */
+.proyect-carousel-mobile {
+    display: none; // hide by default (desktop)
+
+    @media (max-width: 768px) {
+        display: block; // show on mobile
+        width: 100%;
+        margin-top: 20px; // space between title and images
+
+        .owl-carousel-o {
+            width: 100% !important; // full width
+        }
+
+        .img-container img.img-feature-proyect {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+}

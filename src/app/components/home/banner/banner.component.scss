@@ -2,6 +2,8 @@
 
 .banner{
     min-height: 100vh;
+    display: flex;
+    align-items: center;
     position: relative;
     overflow: hidden;
     // z-index: 9999;
@@ -44,14 +46,12 @@
     }
 
     .container{
-        display: table;
-        height: 100vh;
+       
         position: relative;
         z-index: 3;
 
         .section-box-banner{
-            display: table-cell;
-            vertical-align: middle;
+            
 
             .content{
                 margin-top: 98px;
@@ -146,7 +146,7 @@
             }
 
             .div-btn-banner{
-                height: 43px;
+                
 
                 .main-btn {
                     opacity: 0;
@@ -264,8 +264,11 @@
         justify-content: center;
 
         img {
-            width: 360px;
-            height: 360px;
+            width: 100%;
+    max-width: 360px;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    
             object-fit: cover;
             object-position: 50% 30%;
 
@@ -284,16 +287,41 @@
     }
 }
 @media (max-width: 768px) {
-    .section-box-banner {
-        flex-direction: column;
-        text-align: center;
+  .section-box-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 0; // no extra gap
 
-        .banner-image img {
-            width: 260px;
-            height: 260px;
-            margin-top: 30px;
-        }
+    .content {
+      margin-top: 0 !important; // remove extra top margin
     }
+
+    .banner-description {
+      margin-bottom: 0 !important; // remove huge space below description
+    }
+
+    .banner-image img {
+      width: 260px;
+      height: 260px;
+      margin-top: 0;
+    }
+  }
 }
+
+@media (max-width: 768px) {
+  .div-btn-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px; // small spacing below image
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding-top: 90px;
+  }
+}
+
+
 
 
