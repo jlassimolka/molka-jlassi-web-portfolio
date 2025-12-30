@@ -85,9 +85,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1300px) {
-    .owl-carousel-o{
-        display: none;
-    }
+    
     .img-feature-proyect-container {
         width: 50%;
         display: table !important;
@@ -115,9 +113,7 @@
 }
 
 @media (max-width: 768px) {
-    .owl-carousel-o{
-        display: none;
-    }
+    
     .proyects {
         .proyect-container {
             height: 100% !important;
@@ -236,23 +232,32 @@
  ::-webkit-scrollbar-thumb:hover {
     background: $Green;
 }
-/* Mobile carousel under title */
-.proyect-carousel-mobile {
-    display: none; // hide by default (desktop)
+@media (max-width: 768px) {
 
-    @media (max-width: 768px) {
-        display: block; // show on mobile
-        width: 100%;
-        margin-top: 20px; // space between title and images
+  /* stack container */
+  .proyect-container {
+    flex-direction: column !important;
+  }
 
-        .owl-carousel-o {
-            width: 100% !important; // full width
-        }
+  /* text first */
+  .proyect-info-left,
+  .proyect-info-right {
+    width: 100% !important;
+    order: 1;
+    background-image: none !important;
+  }
 
-        .img-container img.img-feature-proyect {
-            width: 100%;
-            height: auto;
-            object-fit: contain;
-        }
-    }
+  /* carousel under title */
+  .owl-carousel-o {
+    display: block !important;
+    width: 100%;
+    order: 2;
+    margin: 15px 0;
+  }
+
+  /* static image ALWAYS hidden */
+  .img-feature-proyect-container {
+    display: none !important;
+  }
+
 }

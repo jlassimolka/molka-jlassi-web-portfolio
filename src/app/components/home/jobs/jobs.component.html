@@ -30,16 +30,15 @@
               </h4>
               <h5 class="job-time">{{ job.Date }}</h5>
               <!-- {{job.Description | json}} -->
-              <p
-                *ngFor="
-                  let jobDescriptionParagraph of job.Description;
-                  let i = index
-                "
-                class="job-description"
-                [innerHTML]="jobDescriptionParagraph | translate"
+          <div class="job-description-card">
+            <p
+                *ngFor="let jobDescriptionParagraph of job.Description; let i = index"
+                 class="job-description"
+                 [innerHTML]="jobDescriptionParagraph | translate"
                 data-animate="fadeInLeft"
                 [attr.data-animate-delay]="i * 200"
-              ></p>
+            ></p>
+          </div>
                 <!-- ✅ Keywords -->
               <!-- ✅ Keywords with label -->
              <div class="job-keywords">

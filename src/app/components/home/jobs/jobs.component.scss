@@ -135,6 +135,17 @@
     }
   }
 }
+.job-description-card {
+    background-color: $LightNavy;   // blue card
+    border-radius: 3px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+
+    // ⚠️ DO NOT set display, position, transform, transition
+    // This ensures AOS animations on <p> still work
+  }
+
 
     .job-description{
         position: relative;
@@ -156,7 +167,7 @@
 @media (max-width: 768px){
     .jobs {
         .job-description{
-            padding: 0px;
+            padding-left: 25px; // keep enough space for the bullet
         }
     }
     ::ng-deep .jobs-tabs{
