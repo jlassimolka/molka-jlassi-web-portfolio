@@ -12,6 +12,56 @@
                     
                     <div class="about-description">
                         
+                          
+  <!-- EDUCATION FIRST -->
+  <!-- EDUCATION -->
+<div class="about-education" data-animate="fadeInUp" data-animate-delay="300">
+  <h4 class="about-subtitle">
+    <span class="underline">{{ 'AboutMe.EducationTitle' | translate }}</span>
+  </h4>
+
+  <div class="education-item-container">
+  <div class="education-item"
+     *ngFor="let edu of 'AboutMe.Education' | translate; let i = index"
+     data-animate="fadeInUp"
+     [attr.data-animate-delay]="300 + (i * 200)"
+     data-animate-duration="800">
+
+  <!-- Animate each child inside -->
+  <h5 class="degree-title"
+      data-animate="fadeInUp"
+      [attr.data-animate-delay]="400 + (i * 200)"
+      data-animate-duration="600">
+    {{ edu.Degree }}
+  </h5>
+
+  <p class="degree-school"
+     data-animate="fadeInUp"
+     [attr.data-animate-delay]="500 + (i * 200)"
+     data-animate-duration="600">
+    {{ edu.School }}
+  </p>
+
+  <span class="degree-year"
+        data-animate="fadeInUp"
+        [attr.data-animate-delay]="600 + (i * 200)"
+        data-animate-duration="600">
+    {{ edu.Year }}
+  </span>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="about-paragraph" data-animate="fadeInUp" data-animate-delay="500">
+  <h4 class="about-subtitle">
+    <span class="underline">Profile</span>
+  </h4>
+</div>
+
                         <div class="about-text-card">
     <p *ngFor='let text of "AboutMe.Paragraphs" | translate; let i = index'
        [innerHTML]="text"
@@ -68,6 +118,7 @@
                      data-animate="morphIn"
                      data-animate-duration="1200"
                      data-animate-delay="600">
+                     <div class="about-img-wrapper">
                     <div class="about-img-container">
                         <img (click)='onImageClick()'
                              class="rounded about-image clickable"
@@ -75,6 +126,7 @@
                              src="assets/images/Molka2.jpg"
                              alt="Molka Jlassi"
                              title="Click para ver imagen ampliada">
+                    </div>
                     </div>
                 </div>
             </div>

@@ -10,6 +10,20 @@
   "Banner.Pretitle": "Bonjour ! Je m'appelle",
   "Banner.Description": "Je suis diplômée en ingénierie de l'architecture logicielle de l'ESPRIT, motivée pour commencer ma carrière en tant qu'ingénieure logiciel afin de transformer mes connaissances en solutions réelles. Passionnée par les nouvelles technologies, la conception de systèmes performants, <span class='underline'>le développement web</span> et <span class='underline'>les tests logiciels</span>, je suis dédiée à contribuer à des projets innovants et à apporter une réelle valeur à l'équipe.",
   "Banner.ActionBtn": "Dire Bonjour",
+  "AboutMe.EducationTitle": "Éducation",
+"AboutMe.Education": [
+  {
+    "Degree": "Ingénierie en architecture logicielle",
+    "School": "École supérieure privée d'ingénierie et de technologie (ESPRIT)",
+    "Year": "2022 - 2025"
+  },
+  {
+    "Degree": "Licence Fondamentale en Informatique",
+    "School": "Institut Supérieur des Arts Multimédia de la Manouba (ISAMM) ",
+    "Year": "2019 - 2022"
+  }
+],
+
 
   "AboutMe.Title": "À propos de moi",
   "AboutMe.Paragraphs": [
@@ -72,7 +86,7 @@
   ],
 
   "FeatureProjects.Title": "Mes Projets",
-  "FeatureProjects.Label": "Projet Mis en Avant",
+  "FeatureProjects.Label": "Projets principaux",
   "FeatureProjects.Projects": [
     {
       "Title": "Système de Gestion de Formation (LMS)",
@@ -138,7 +152,7 @@
       "Technologies": ["JavaScript", "HTML5", "CSS"]
     },
     {
-      "Title": "Solution de Gestion Électronique des Documents (GED)",
+      "Title": "Gestion Électronique des Documents (GED)",
       "Description": "Conception et déploiement d'une <span class='underline'>solution GED</span> intégrant des <span class='underline'>workflows automatisés</span> pour la classification, le stockage et l'archivage des documents, optimisant les processus internes et réduisant la dépendance au papier. Développée avec <span class='underline'>Symfony</span>, <span class='underline'>Doctrine</span>, <span class='underline'>JavaScript</span> et <span class='underline'>MySQL</span>.",
       "imgs": [
         "assets/images/ged/listediff.PNG",

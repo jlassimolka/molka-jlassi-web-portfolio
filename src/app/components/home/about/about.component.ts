@@ -122,5 +122,51 @@ export class AboutComponent implements OnInit, AfterViewInit {
         delay: 600
       });
     }
+    // Animate the education section container
+const educationContainer = aboutSection.querySelector('.about-education');
+if (educationContainer) {
+  this.animationsService.observeElement(educationContainer as HTMLElement, {
+    type: 'fadeInUp',
+    delay: 300
+  });
+}
+
+// Animate each education item individually with stagger
+const educationItems = aboutSection.querySelectorAll('.education-item');
+educationItems.forEach((item: HTMLElement, index: number) => {
+  this.animationsService.observeElement(item, {
+    type: 'fadeInUp',
+    delay: 300 + index * 200,
+    duration: 800
+  });
+
+  // Animate child elements inside each item
+  const degreeTitle = item.querySelector('.degree-title');
+  if (degreeTitle) {
+    this.animationsService.observeElement(degreeTitle as HTMLElement, {
+      type: 'fadeInUp',
+      delay: 400 + index * 200,
+      duration: 600
+    });
+  }
+
+  const degreeSchool = item.querySelector('.degree-school');
+  if (degreeSchool) {
+    this.animationsService.observeElement(degreeSchool as HTMLElement, {
+      type: 'fadeInUp',
+      delay: 500 + index * 200,
+      duration: 600
+    });
+  }
+
+  const degreeYear = item.querySelector('.degree-year');
+  if (degreeYear) {
+    this.animationsService.observeElement(degreeYear as HTMLElement, {
+      type: 'fadeInUp',
+      delay: 600 + index * 200,
+      duration: 600
+    });
+  }
+});
   }
 }

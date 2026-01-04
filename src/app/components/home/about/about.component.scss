@@ -189,3 +189,128 @@
     }
 }
 
+/* ===== EDUCATION (aligned with paragraph) ===== */
+.about-education {
+  max-width: 100%;
+  margin-bottom: 50px;
+
+  .about-subtitle {
+    font-family: $MainFont;
+    font-size: 26px; 
+    font-weight: 700;
+    color: $LightestSlate;
+    margin-bottom: 35px;
+    position: relative;
+
+    .underline {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 80px;
+        height: 4px;
+        background-color: $Green;
+        border-radius: 2px;
+      }
+    }
+  }
+
+  .education-item-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;  // spacing between boxes
+    flex-wrap: nowrap; // always side by side
+  }
+
+  .education-item {
+    flex: 1 1 0;
+    min-width: 480px; 
+    padding: 25px 35px; 
+    background-color: $LightNavy;
+    border-radius: 12px;
+    box-shadow: 0 15px 50px -15px rgba(2, 12, 27, 0.7);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 60px -10px rgba(2, 12, 27, 0.85);
+    }
+
+    &::before {
+      content: none; // remove absolute bullet
+    }
+
+    .degree-title::before {
+      content: '▹';          // inline bullet
+      color: $Green;
+      margin-right: 1px;    // space between bullet and first letter
+      display: inline-block; // inline with text
+      font-size: 20px;       // adjust size
+      vertical-align: middle;
+    }
+    .degree-school {
+      font-family: $MainFont;
+      font-size: 16px;
+      color: $Slate;
+      margin: 0 0 6px 0;
+    }
+
+    .degree-year {
+      font-family: $CodeFont;
+      font-size: 15px;
+      color: $Green;
+      font-weight: 600;
+    }
+  }
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 992px) { 
+  .about-education {
+    .education-item-container {
+      flex-direction: column;  // stack vertically
+      gap: 20px;               // spacing between stacked cards
+    }
+
+    .education-item {
+      flex: 1 1 100%;          // full width
+      min-width: auto;          // remove min-width so it fits mobile
+      padding: 20px;            // adjust padding
+
+      &::before {
+        content: none;          // remove absolute bullet
+      }
+
+      .degree-title::before {
+        content: '▹';           // inline bullet
+        color: $Green;
+        margin-right: 8px;      // space between bullet and first letter
+        display: inline;        // inline with text
+        font-size: 16px;        // adjust size if needed
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+.about {
+  .about-img-wrapper {
+    margin-top: 300px; // 👈 aligne avec le début du paragraphe
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    .about-img-wrapper {
+      margin-top: 0;
+    }
+  }
+}
+

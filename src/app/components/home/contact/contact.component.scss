@@ -59,7 +59,39 @@
         justify-content: center;
         text-align: center;
     }
+    
+ .contact-links {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; // space between email and GitHub
+  flex-wrap: wrap;
 
+  .contact-link {
+    font-family: $CodeFont;
+    font-size: 14px;
+    color: $LightestSlate;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+
+    i {
+      font-size: 20px;
+      color: $Green;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover {
+      color: $Green;
+      i {
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
+   
 }
 
 @media (max-width: 768px){

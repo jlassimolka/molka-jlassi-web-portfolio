@@ -11,6 +11,23 @@
   "Banner.Description": "I am a software architecture engineering graduate from ESPRIT, motivated to start my career as a software engineer to turn my knowledge into real solutions. Passionate about new technologies, high-performance system design, <span class='underline'>web development</span>, and <span class='underline'>software testing</span>, I am dedicated to contributing to innovative projects and bringing real value to the team.",
   "Banner.ActionBtn": "Say Hi",
 
+ "AboutMe.EducationTitle": "Education",
+"AboutMe.Education": [
+  {
+    "Degree": "SOFTWARE ENGINEERING DEGREE",
+    "School": "Private Higher School of Engineering and Technology (ESPRIT)",
+    "Year": "2022 — 2025"
+  },
+  {
+    "Degree": "BACHELOR’S DEGREE IN COMPUTER SCIENCE",
+    "School": "Higher Institute of Multimedia Arts of Manouba (ISAMM)",
+    "Year": "2019 — 2022"
+  }
+],
+
+
+
+
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
     "During my academic and professional projects, I had the opportunity to work on real-world applications that strengthened my technical and problem-solving skills. I enjoy turning ideas into functional, user-friendly solutions.",
